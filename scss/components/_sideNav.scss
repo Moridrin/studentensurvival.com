@@ -40,14 +40,14 @@
   }
 
   a {
-    color: $sidenav-font-color;
+    color: white;
     display: block;
     font-size: 1rem;
     height: $sidenav-item-height;
     line-height: $sidenav-item-height;
     padding: 0 $sidenav-padding-right;
 
-    &:hover { background-color: rgba(0,0,0,.05);}
+    &:hover { background-color: $primary-color-light;}
 
     &.btn, &.btn-large, &.btn-flat, &.btn-floating {
       margin: 10px 15px;

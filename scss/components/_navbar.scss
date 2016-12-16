@@ -6,6 +6,10 @@ nav {
   height: $navbar-height-mobile;
   line-height: $navbar-height-mobile;
 
+  .button-collapse {
+    color: $primary-color;
+  }
+
   a { color: $navbar-font-color; }
 
   i,
